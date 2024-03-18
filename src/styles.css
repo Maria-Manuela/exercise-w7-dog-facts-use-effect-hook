@@ -1,1 +1,31 @@
 /* Start Adding your CSS here */
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #527dab;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
